@@ -1,0 +1,6 @@
+{
+  "port": 8000,
+  "ghostMode": false,
+  "reloadDelay": 100,
+  "browser" : ["google-chrome"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-npm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "boilerplate with npm scripts",
+  "main": "index.js",
+  "scripts": {
+    "js": "simplifyify main.js --watch",
+    "serve": "lite-server -c configs/bs-config.json",
+    "start": "npm-run-all --parallel js serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "npm-run-all": "^4.0.2",
+    "simplifyify": "^3.2.1",
+    "stylus": "^0.54.5"
+  }
+}
