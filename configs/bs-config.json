@@ -3,5 +3,6 @@
   "files": ["./dist/**/*.{html,htm,css,js}"],
   "server": { "baseDir": "./dist" },
   "ghostMode": false,
+  "notify": false,
   "reloadDelay": 100
 }
