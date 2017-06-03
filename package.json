@@ -1,6 +1,5 @@
 {
   "name": "boilerplate-npm",
-  "private": true,
   "version": "1.0.0",
   "description": "boilerplate with npm scripts",
   "main": "index.js",
@@ -32,8 +31,8 @@
       ]
     ]
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["boilerplate", "npm-scripts"],
+  "author": "@santospatrick",
   "license": "ISC",
   "dependencies": {
     "flexboxgrid": "^6.3.1",
