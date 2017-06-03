@@ -2,7 +2,7 @@
 
 > Boilerplate with npm scripts (HTML, CSS & JS optimization)
 
-![Boilerplate NPM Logo](dist/logo.svg?raw=true "Boilerplate NPM Logo")
+![Boilerplate NPM Logo](dist/logo.png?raw=true "Boilerplate NPM Logo")
 
 ## features
 
