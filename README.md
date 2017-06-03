@@ -2,7 +2,7 @@
 
 > Boilerplate with npm scripts (HTML, CSS & JS optimization)
 
-![Kiku](dist/logo.svg)
+![Boilerplate NPM Logo](dist/logo.svg?raw=true "Boilerplate NPM Logo")
 
 ## features
 
