@@ -10,7 +10,7 @@
     "js:build": "npm run js -- --minify",
     "css:description": "CSS with stylus",
     "css": "stylus -w -m \"src/css/style.styl\" -o \"dist/style.min.css\"",
-    "css:watch": "npm run css -- -I \"node_modules\"",
+    "css:watch": "npm run css -- --include-css -I \"node_modules\"",
     "css:build": "stylus -c \"src/css/style.styl\" -o \"dist/style.min.css\"",
     "serve:description": "Server to run your app",
     "serve": "lite-server -c configs/bs-config.json",
@@ -31,12 +31,15 @@
       ]
     ]
   },
-  "keywords": ["boilerplate", "npm-scripts"],
+  "keywords": [
+    "boilerplate",
+    "npm-scripts"
+  ],
   "author": "@santospatrick",
   "license": "ISC",
   "dependencies": {
     "flexboxgrid": "^6.3.1",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "7.0.0",
     "uniq": "^1.0.1"
   },
   "devDependencies": {
