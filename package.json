@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "js:description": "Javascript Things",
-    "js": "simplifyify \"src/js/index.js\" -o \"dist/bundle.min.js\" -d",
-    "js:watch": "npm run js -- --watch",
+    "js": "simplifyify \"src/js/index.js\" -o \"dist/bundle.min.js\"",
+    "js:watch": "npm run js -- --debug --watch",
     "js:build": "npm run js -- --minify",
     "css:description": "CSS with stylus",
     "css": "stylus -w -m \"src/css/style.styl\" -o \"dist/style.min.css\"",
-    "css:watch": "npm run css -- --include-css -I \"node_modules\"",
+    "css:prefix": "npm run css -- -u autoprefixer-stylus",
+    "css:watch": "npm run css:prefix -- --include-css -I \"node_modules\"",
     "css:build": "stylus -c \"src/css/style.styl\" -o \"dist/style.min.css\"",
     "serve:description": "Server to run your app",
     "serve": "lite-server -c configs/bs-config.json",
@@ -31,6 +32,11 @@
       ]
     ]
   },
+  "browserslist": [
+    "last 2 versions",
+    "ie 8",
+    "ie 9"
+  ],
   "keywords": [
     "boilerplate",
     "npm-scripts"
@@ -43,6 +49,7 @@
     "uniq": "^1.0.1"
   },
   "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
     "babel-preset-es2015": "^6.24.1",
     "babelify": "^7.3.0",
     "lite-server": "^2.3.0",
