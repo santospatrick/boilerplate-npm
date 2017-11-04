@@ -1,0 +1,12 @@
+{
+    "extends": "standard",
+    "env": {
+        "browser": true
+    },
+    "plugins": ["compat"],
+    "rules": {
+        "compat/compat": "error",
+        "semi": [2, "always"],
+        "max-len": [2, 80, 2]
+    }
+}
